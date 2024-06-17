@@ -1,0 +1,22 @@
+buildtree
+buildtree in levelorder
+preorder postorder and inorder traversal
+levelorder traversal
+count leafnodes
+height of a binarytree
+(height and traversals using loop)
+diameter of a binary tree(optimized and unoptimized approaches)
+check balanced or not
+isIdentical
+zigzag traversal
+boundary traversal
+vertical order traversal
+top/bottom view
+left/right view
+sum of the longest bloodline of a tree(done using pair(height, sum) approach) also try love babbar approach
+LCA(lowest common ancestor of a binary tree)
+k sum paths in a tree
+kth ancestor in a tree(two approaches)
+build tree from inorder and postorder and print its preorder
+buildtree from preorder and inorder and print its postorder
+morris traversal & flatten a binary tree

@@ -1,0 +1,17 @@
+implementation of bst
+searching in bst
+min and max value in bst
+predecessor and successor(two methods--->recursion or inorder)
+deletion in bst
+valid bst(through inorder or recursion)
+kth smallest number(inorder and recursion method)--->do it using morris traversal
+LCA in bst(lying between two values or not)
+two sum in bst(check for each node (target - nodevalue) exists or not)orbetter solution(store inorder and check sum using two pointer approach)
+
+
+//from coding ninjas
+bst to linked list
+normal to balanced bst(through inorder)
+preorder to bst(approaches 3 )
+merge two bst
+preorder iterative(morris traversal)

@@ -1,0 +1,10 @@
+parent node-> (i-1)/2
+left child-> (2*i)+1
+right child-> (2*i)+2
+insertion, 
+deletion
+heapify(for single ele)
+buildheap(for n ele except leaf)
+heapsort(pde huye heap ko sort krna)
+find kth smallest element
+is binary tree  heap;
