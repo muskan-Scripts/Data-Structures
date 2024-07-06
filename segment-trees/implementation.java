@@ -40,6 +40,27 @@ class SegmentTree {
         return getSum(st, mid, q1, Math.min(q2, mid), 2 * idx + 1) +
                getSum(mid + 1, end, Math.max(q1, mid + 1), q2, 2 * idx + 2);
     }
+
+    public void updateidx(int idx, int val, int n){
+        updatefunc(idx, val, 0, n-1, 0);
+    }
+    private void updatefunc(int idx, int val, int st, int end, int cidx){
+        if(st==end){
+            if(st==idx){
+                segarr[cidx]=val;
+                return;
+            }
+            return;
+        }
+        int mid=(st+end)/2;
+        if(idx<=mid){
+            updatefunc(idx, val, st, mid, 2*cidx+1);
+        }
+        else{
+            updatefunc(idx, val,mid+1,end, 2*cidx+2);
+        }
+        segarr[cidx]= segarr[2*cidx+1]+segarr[2*cidx+2];
+    }
 }
 
 class implementation {
